@@ -1,0 +1,41 @@
+push_back Method:
+   -Use the first assert statement to check if the size of the list increases by one after pushing an element.
+   -Use the second assert statement to verify that the last element in the list is the one that was just pushed.
+
+clear Method:
+   -Use one assert statement to confirm that the size becomes zero after clearing the list.
+   -Use the second assert statement to check if the list is indeed empty.
+
+push_front Method:
+   -Test with an empty list by pushing one element.
+   -Test with a non-empty list by pushing an element to the front.
+
+pop_back Method:
+   -Test with an empty list.
+   -Test with a list of one element.
+   -Test with a list of multiple elements.
+
+pop_front Method:
+   -Test with an empty list.
+   -Test with a list of one element.
+   -Test with a list of multiple elements.
+
+insert_after Method:
+   -Test by inserting after the first element.
+   -Test by inserting after a middle element.
+   -Test by inserting after the last element.
+   -Test with an element that doesn't exist in the list.
+
+remove Method:
+   -Test by removing the first element.
+   -Test by removing a middle element.
+   -Test by removing the last element.
+   -Test with an element that doesn't exist in the list.
+
+get_size Method:
+   -Test with an empty list.
+   -Test with a list of one element.
+   -Test with a list of multiple elements.
+
+print Method:
+   -Manual inspection of printed output is sufficient.
